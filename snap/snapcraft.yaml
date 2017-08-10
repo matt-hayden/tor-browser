@@ -1,5 +1,5 @@
 name: tor-browser
-version: '7.0'
+version: '7.0.4'
 summary: Tor Browser; protect your privacy
 description: |
   The Tor software protects you by bouncing your communications
@@ -23,4 +23,4 @@ apps:
 parts:
   tor-browser:
     plugin: dump
-    source: https://www.torproject.org/dist/torbrowser/7.0/tor-browser-linux64-7.0_en-US.tar.xz
+    source: https://www.torproject.org/dist/torbrowser/7.0.4/tor-browser-linux64-7.0.4_en-US.tar.xz
