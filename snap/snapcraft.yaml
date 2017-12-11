@@ -1,5 +1,5 @@
 name: tor-browser
-version: '7.0.7'
+version: '7.5a9'
 summary: Tor Browser; protect your privacy
 description: |
   The Tor software protects you by bouncing your communications
@@ -19,8 +19,11 @@ apps:
       - x11
       - network
       - network-bind
+      - desktop
+      - desktop-legacy
+      - wayland
 
 parts:
   tor-browser:
     plugin: dump
-    source: https://dist.torproject.org/torbrowser/7.0.7/tor-browser-linux64-7.0.7_en-US.tar.xz
+    source: https://dist.torproject.org/torbrowser/7.5a9/tor-browser-linux64-7.5a9_en-US.tar.xz
